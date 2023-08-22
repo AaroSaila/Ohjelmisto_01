@@ -6,4 +6,4 @@ product = int1 * int2 * int3
 mean = sum / 3
 print(f"Summa: {sum}")
 print(f"Tulo: {product}")
-print(f"Keskiarvo: {mean}")
+print(f"Keskiarvo kahden desimaalin tarkkuudella: {mean:.2f}")

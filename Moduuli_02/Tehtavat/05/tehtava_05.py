@@ -12,5 +12,5 @@ luodit_sum_grams_total = luodit_sum * 13.3
 luodit_sum_kilograms_whole = int(luodit_sum_grams_total) // 1000
 luodit_sum_kilograms_remainder = luodit_sum_grams_total % 1000
 
-print(f"Massa nykymittojen mukaan\n"
+print(f"\nMassa nykymittojen mukaan (grammat pyöristetty toisen desimaalin tarkkuuteen)\n"
       f"{luodit_sum_kilograms_whole} kilogrammaa ja {luodit_sum_kilograms_remainder:.2f} grammaa.")

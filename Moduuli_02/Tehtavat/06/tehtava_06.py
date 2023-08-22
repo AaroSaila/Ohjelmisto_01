@@ -4,5 +4,5 @@ numcode4 = str(random.randint(1, 6)) + str(random.randint(1, 6)) + str(random.ra
 
 print(f"Kolminumeroinen lukukoodi, jonka luvut ovat väliltä 0 - 9:\n"
       f"{numcode3}")
-print(f"Nelinumeroinen lukukoodi, jonka luvut ovat väliltä 1 - 6\n"
+print(f"\nNelinumeroinen lukukoodi, jonka luvut ovat väliltä 1 - 6:\n"
       f"{numcode4}")
