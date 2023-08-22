@@ -8,7 +8,6 @@ naulat_luodit = naulat * 32
 luodit_sum = luodit + leiviskat_luodit + naulat_luodit
 
 luodit_sum_grams_total = luodit_sum * 13.3
-
 luodit_sum_kilograms_whole = int(luodit_sum_grams_total) // 1000
 luodit_sum_kilograms_remainder = luodit_sum_grams_total % 1000
 
