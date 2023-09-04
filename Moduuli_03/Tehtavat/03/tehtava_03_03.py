@@ -1,6 +1,9 @@
-gender = input("Oletko mies vai nainen? ")
-gender = gender.lower()
-hemoglobin = float(input("Anna hemoglobiiniarvosi: "))
+gender = input("Oletko mies vai nainen? ").lower()
+hemoglobin = float(input("Mikä on hemoglobiiniarvosi: "))
+
+if gender != "mies" or gender != "nainen" or hemoglobin < 0:
+    print("Virheelliset tiedot.")
+    quit()
 
 if gender == "mies":
     if hemoglobin < 134:
