@@ -11,9 +11,9 @@ while True:
 
     if num1 != "" and float(num1) > num_large:
         num_large = float(num1)
-    if num1 != "" and float(num1) < num_small:
+    elif num1 != "" and float(num1) < num_small:
         num_small = float(num1)
-    if num1 == "":
+    elif num1 == "":
         break
 
 print(f"\nSuurin syöttämäsi luku oli {num_large} ja pienin syöttämäsi luku oli {num_small}.")

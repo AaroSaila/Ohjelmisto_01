@@ -1,4 +1,4 @@
-inches = float(input("Anna tuumat: "))
+inches = (input("Anna tuumat: "))
 
 while inches > 0:
     centimeters = inches * 2.54
