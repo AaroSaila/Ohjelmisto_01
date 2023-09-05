@@ -1,11 +1,16 @@
 while True:
     a = []
+    isPrime = True
     num = int(input("Anna kokonaisluku: "))
-    x = range(1, num+1)
-    for t in x:
-        y = num % t
-        a.append(y)
-    if a.count(0) == 2:
+    x = range(2, num)
+    if num <= 1:
+        isPrime = False
+    else:
+        for t in x:
+            if num % t == 0:
+                isPrime = False
+
+    if isPrime:
         print(f"Luku {num} on alkuluku.")
     else:
         print(f"Luku {num} ei ole alkuluku.")
