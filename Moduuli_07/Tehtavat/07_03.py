@@ -3,9 +3,9 @@ escape = "tai syötä tyhjä merkkirivi palataksesi alkuun"
 
 
 def new_airport(dicti):
-    name = input("Anna lentoaseman nimi: ")
-    icao = input(f"Anna lentoaseman ICAO-koodi {escape}: ")
-    if icao == "":
+    icao = input("Anna lentoaseman ICAO-koodi: ")
+    name = input(f"Anna lentoaseman nimi {escape}: ")
+    if name == "":
         return
     dicti[icao] = name
     print(airports)
@@ -36,19 +36,20 @@ def search(dicti):
                 return
     name = dicti[icao]
     print(f"Lentokentän {icao} nimi on {name}.")
+    return
 
 
 while True:
-    choice = int(input("\nHaluatko: \n 1. Lisätä lentoasematietoja \n 2. Hakea lentoasematietoja \n"
-                       " 3. Lopettaa ohjelman suorittamisen \nVastaus: "))
+    choice = input("\nHaluatko: \n 1. Lisätä lentoasematietoja \n 2. Hakea lentoasematietoja \n"
+                   " 3. Lopettaa ohjelman suorittamisen \nVastaus: ")
 
-    if choice == 1:
+    if choice == "1":
         print("")
         new_airport(airports)
 
-    elif choice == 2:
+    elif choice == "2":
         print("")
         search(airports)
 
-    elif choice == 3:
+    elif choice == "3":
         exit()
