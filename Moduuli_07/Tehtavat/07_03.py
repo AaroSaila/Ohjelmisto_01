@@ -5,7 +5,7 @@ escape = "tai syötä tyhjä merkkirivi palataksesi alkuun"
 def new_airport(dicti):
     name = input("Anna lentoaseman nimi: ")
     icao = input(f"Anna lentoaseman ICAO-koodi {escape}: ")
-    if name == "" or icao == "":
+    if icao == "":
         return
     dicti[icao] = name
     print(airports)
