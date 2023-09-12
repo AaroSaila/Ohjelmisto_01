@@ -8,7 +8,7 @@ def list_sum(x):
 
 a = []
 
-for i in range(0, 10):
+for i in range(0, 5):
     a.append(randint(1, 1000))
 
 print(a)
