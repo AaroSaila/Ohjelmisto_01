@@ -6,7 +6,7 @@ while c:
     b = input("Anna nimi: ")
     if b not in a and b != "":
         a.add(b)
-        print("Uusi nimi")
+        print("Antamasi nimi on uusi")
     elif b == "":
         c = False
     else:
