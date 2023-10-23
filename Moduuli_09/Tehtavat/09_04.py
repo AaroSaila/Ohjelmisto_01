@@ -11,16 +11,16 @@ class Car:
     def properties(self):
         print(
             f"""
-            Auton ominaisuudet
-            +---------------------------------------------+
-             rekisteritunnus: {self.plate}
-            +---------------------------------------------+
-             huippunopeus:    {self.top_speed:} km/h
-            +---------------------------------------------+
-             tämänhetkinen nopeus: {self.speed} km/h 
-            +---------------------------------------------+
-             kuljettu matka: {self.traveled_distance} km
-            +---------------------------------------------+
+Auton ominaisuudet
++---------------------------+------------------------+
+ rekisteritunnus:           | {self.plate}
++---------------------------+------------------------+
+ huippunopeus:              | {self.top_speed:} km/h
++---------------------------+------------------------+
+ tämänhetkinen nopeus:      | {self.speed} km/h 
++---------------------------+------------------------+
+ kuljettu matka:            | {self.traveled_distance} km
++---------------------------+------------------------+
             
             """)
 
