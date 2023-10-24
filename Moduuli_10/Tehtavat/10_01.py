@@ -8,15 +8,15 @@ class Hissi:
         self.kerros += 1
         if self.kerros > self.ylin:
             self.kerros = self.ylin
-        result = "Hissi on " + str(self.kerros) + ". kerroksessa"
-        return result
+        print("Hissi on " + str(self.kerros) + ". kerroksessa")
+        return
 
     def kerros_alas(self):
         self.kerros -= 1
         if self.kerros < self.alin:
             self.kerros = self.alin
-        result = "Hissi on " + str(self.kerros) + ". kerroksessa"
-        return result
+        print("Hissi on " + str(self.kerros) + ". kerroksessa")
+        return
 
     def siirry_kerrokseen(self, kerros):
         while self.kerros < kerros:
@@ -24,3 +24,9 @@ class Hissi:
         while self.kerros > kerros:
             self.kerros_alas()
         return
+
+
+hissi = Hissi()
+
+hissi.siirry_kerrokseen(7)
+hissi.siirry_kerrokseen(1)
