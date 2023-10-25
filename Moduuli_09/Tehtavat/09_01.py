@@ -11,6 +11,8 @@ class Auto:
               f"huippunopeus: {self.top_speed: >12} km/h \n"
               f"tämänhetkinen nopeus: {self.speed: >2} km/h \n"
               f"kuljettu matka: {self.traveled_distance: >8} km")
+
+
 car1 = Auto("ABC-123", 142)
 
 car1.properties()
