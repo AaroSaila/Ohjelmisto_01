@@ -4,7 +4,7 @@ api_key = "404f93a3ca1a1e108fa623b09646cb76"
 
 
 def main():
-    city = input("Hea kaupungin säätä: ")
+    city = input("Hae kaupungin säätä: ")
     search = f"https://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}&lang=fi&units=metric"
     try:
         result = requests.get(search)
@@ -15,8 +15,9 @@ def main():
             print(f"Säätila ja lämpötila kaupungissa {city.capitalize()}: {weather}, {temperature} C")
         elif result.status_code == 404:
             print("Kaupunkia ei löytynyt")
-    except requests.exceptions.RequestException:
+    except requests.exceptions.RequestException as e:
         print("ERROR")
+        print(e)
 
 
 main()
