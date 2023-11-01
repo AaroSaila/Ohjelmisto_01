@@ -13,7 +13,7 @@ def main():
             weather = json_result["weather"][0]["description"]
             temperature = json_result["main"]["temp"]
             print(f"Säätila ja lämpötila kaupungissa {city.capitalize()}: {weather}, {temperature} C")
-        if result.status_code == 404:
+        elif result.status_code == 404:
             print("Kaupunkia ei löytynyt")
     except requests.exceptions.RequestException:
         print("ERROR")
