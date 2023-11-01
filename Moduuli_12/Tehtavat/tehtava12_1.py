@@ -9,7 +9,7 @@ def main():
             json_joke = joke.json()
             print(json_joke["value"])
 
-    except requests.exceptions.RequestException as e:
+    except requests.exceptions.RequestException:
         print("ERROR")
 
 
