@@ -1,5 +1,4 @@
 while True:
-    a = []
     isPrime = True
     num = int(input("Anna kokonaisluku: "))
     x = range(2, num)
