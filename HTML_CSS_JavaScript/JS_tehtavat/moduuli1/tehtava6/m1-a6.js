@@ -13,3 +13,6 @@ if (answer) {
         sqrt_element.innerHTML = 'The square root of a negative number is not defined'
     }
 }
+else {
+    sqrt_element.innerHTML = 'The square root is not calculated.'
+}
