@@ -1,0 +1,4 @@
+1. (1p) checker ok
+2. (2p) checker ok
+3. (3p) checker ok
+4. (3p) checker ok
