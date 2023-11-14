@@ -46,6 +46,4 @@ const sum = parseInt(prompt('Sum of the eye numbers of interest: '));
 const correct_sums = howManyCorrectSums(dice_amount, sum);
 const probability_in_prcnt = ((correct_sums / 10000) * 100).toFixed(2);
 
-console.log(howManyCorrectSums(3, 15));
-
 document.querySelector('#probability').innerHTML = `Probability to get sum ${sum} with ${dice_amount} dice is ${probability_in_prcnt}%`;
