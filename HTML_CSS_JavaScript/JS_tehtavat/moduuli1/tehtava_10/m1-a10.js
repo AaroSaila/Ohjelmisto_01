@@ -21,9 +21,9 @@ function diceThrowSum(dice_amount) {
     }
     for (let i = 0; i < ((dice_amount - 1) / 2); i++) {
         sum += eyes[0] + eyes[1];
-        console.log('Eyes: ' + eyes);
+        // console.log('Eyes: ' + eyes);
         eyes.splice(0, 2);
-            console.log('Sum: ' + sum);
+        // console.log('Sum: ' + sum);
     }
     return sum;
 }
