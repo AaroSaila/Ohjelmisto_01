@@ -8,3 +8,5 @@
 8. (3p) checker ok
 9. (2p) no checker
 10. (5p) no checker
+
+Yhteensä: 27p
