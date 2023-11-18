@@ -2,3 +2,4 @@
 2. (2p) checker ok
 3. (2p) checker ok
 4. (2p) checker ok
+5. (2p) checker valittaa mutta ohjelma toimii
