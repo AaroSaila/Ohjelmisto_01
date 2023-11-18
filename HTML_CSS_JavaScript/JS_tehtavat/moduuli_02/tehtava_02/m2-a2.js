@@ -10,7 +10,7 @@ for (let i = 1; i <= number_of_participants; i++) {
 participants.sort();
 
 if (participants[0]) {
-    for (let i = 0; i <= participants.length; i++) {
+    for (let i = 0; i < participants.length; i++) {
         document.querySelector('#list').innerHTML += `<li>${participants[i]}</li>`;
     }
 }
