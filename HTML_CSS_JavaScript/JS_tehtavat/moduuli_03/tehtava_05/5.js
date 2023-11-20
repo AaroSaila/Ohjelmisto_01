@@ -141,5 +141,5 @@ function createArticle(element_id, title, image, img_alt, caption, description) 
 /* createArticle('pictures', picArray[1]['title'], picArray[1]['image']['medium'], picArray[1]['caption'], picArray[1]['description']); */
 for (let i = 0; i < picArray.length; i++) {
   const arr = picArray[i];
-  createArticle('pictures', arr['title'], arr['image']['medium'], arr['caption'], arr['description']);
+  createArticle('pictures', arr['title'], arr['image']['medium'], arr['title'], arr['caption'], arr['description']);
 }
