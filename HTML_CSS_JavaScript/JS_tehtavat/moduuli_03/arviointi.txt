@@ -1,3 +1,4 @@
 1. (2p) checker ok
 2. (2p) checker ok
 3. (2p) checker virheellisesti valittaa, että inner.HTML:ää olisi käytetty
+4. (2p) checker ok
