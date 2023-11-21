@@ -5,3 +5,4 @@
 5. (5p) checker ok
 6. (1p) no checker
 7. (2p) checker ok
+8. (4p) checker ok
