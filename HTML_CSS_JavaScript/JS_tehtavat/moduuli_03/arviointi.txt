@@ -1,9 +1,10 @@
-1. (2p) checker ok
-2. (2p) checker ok
-3. (2p) checker virheellisesti valittaa, että inner.HTML:ää olisi käytetty
-4. (2p) checker ok
-5. (5p) checker ok
-6. (1p) no checker
-7. (2p) checker ok
-8. (4p) checker ok
-9. (4p) checker ok
+01. (2p) checker ok
+02. (2p) checker ok
+03. (2p) checker virheellisesti valittaa, että inner.HTML:ää olisi käytetty
+04. (2p) checker ok
+05. (5p) checker ok
+06. (1p) no checker
+07. (2p) checker ok
+08. (4p) checker ok
+09. (4p) checker ok
+10. (2p) checker ok
