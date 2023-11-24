@@ -6,3 +6,4 @@
 6. (1p) no checker
 7. (2p) checker ok
 8. (4p) checker ok
+9. (4p) checker ok
