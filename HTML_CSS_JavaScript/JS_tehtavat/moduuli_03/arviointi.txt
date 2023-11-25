@@ -8,3 +8,4 @@
 08. (4p) checker ok
 09. (4p) checker ok
 10. (2p) checker ok
+11. (6p) checker ok
