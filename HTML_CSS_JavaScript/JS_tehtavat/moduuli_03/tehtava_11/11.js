@@ -139,10 +139,11 @@ function createArticle(element_id, title, image, img_alt, caption, description) 
 }
 
 
-function createModal(dialog, article, image) {
+function createModal(dialog, article, image, title) {
   article.addEventListener('click', function() {
     dialog.showModal();
     document.querySelector('dialog > img').setAttribute('src', image);
+    document.querySelector('dialog > img').setAttribute('alt', title);
   })
   return
 }
@@ -157,7 +158,7 @@ for (let i = 0; i < picArray.length; i++) {
 const articles = document.querySelectorAll('article');
 
 for (let i = 0; i < picArray.length; i++) {
-  createModal(dialog, articles[i], picArray[i]['image']['large']);
+  createModal(dialog, articles[i], picArray[i]['image']['large'], picArray[i]['title']);
 }
 
 document.querySelector('span').addEventListener('click', function() {
