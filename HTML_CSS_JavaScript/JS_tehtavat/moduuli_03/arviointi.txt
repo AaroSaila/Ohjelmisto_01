@@ -1,6 +1,6 @@
 01. (2p) checker ok
 02. (2p) checker ok
-03. (2p) checker virheellisesti valittaa, että inner.HTML:ää olisi käytetty
+03. (2p) checker ok
 04. (2p) checker ok
 05. (5p) checker ok
 06. (1p) no checker
