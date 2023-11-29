@@ -25,8 +25,8 @@ function showShow(show) {
 
     // img (medium image)
     const img = document.createElement('img');
-    img.setAttribute('src', show.show.image.medium != 'null' ? show.show.image.medium : 'https://via.placeholder.com/210x295?text=Not%20Found');
-    console.log(show.show.image.medium);
+    img.setAttribute('src', (show.show.image != null ? show.show.image.medium : 'https://via.placeholder.com/210x295?text=Not%20Found'));
+    // console.log(show.show.image.medium);
     img.setAttribute('alt', show['show']['name']);
     img.setAttribute('style', 'display="block"');
 
