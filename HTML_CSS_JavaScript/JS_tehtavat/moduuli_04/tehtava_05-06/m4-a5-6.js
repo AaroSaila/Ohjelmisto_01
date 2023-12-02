@@ -18,7 +18,7 @@ async function fetchJoke() {
 };
 
 
-function createArticle(textContent) {
+function createArticle(div, textContent) {
     // article
     const article = document.createElement('article');
 
@@ -36,7 +36,15 @@ function createArticle(textContent) {
 
 fetchJoke();
 
-search.addEventListener('click', (event) => {
+search.addEventListener('click', async (event) => {
     event.preventDefault();
-    
+    try {
+        const response = await fetch(`https://api.chucknorris.io/jokes/search?query=${text_input.value}`);
+        const response_json = await response.json();
+        console.log(response_json);
+        jokesDiv.appendChild(createArticle(jokesDiv, response_json['result'][0]['value']));
+    }
+    catch(error) {
+        console.error(error);
+    };
 });
