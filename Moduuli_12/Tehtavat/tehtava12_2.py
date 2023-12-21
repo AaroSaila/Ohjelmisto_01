@@ -1,6 +1,6 @@
 import requests
 
-api_key = "404f93a3ca1a1e108fa623b09646cb"
+api_key = "api_key"
 
 
 def main():
